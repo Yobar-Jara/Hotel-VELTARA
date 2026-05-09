@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio de Sesion</title>
+    <link rel="stylesheet" href="./assets/css/login.css"/>
+  </head>
+  <body>
+    <section class="login-container">
+      <div class="login-box">
+        <img src="./assets/Img/Logo.png" alt="logo-login">
+        <h2>Inicio de Sesion</h2>
+
+        <form onsubmit="return validarLogin(event);">
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Introduce tu email" required />
+          </div>
+
+          <div class="input-group">
+            <label for="password">Contraseña (veltara)</label>
+            <input type="password" id="password" name="password" placeholder="Introduce la clave secreta" required />
+          </div>
+
+          <button type="submit" class="login-button">Iniciar Sesión</button>
+          <p>¿Eres nuevo por aquí? <a href="">Crear una cuenta</a></p>
+        </form>
+      </div>
+    </section>
+
+    <script src="./assets/Js/login.js"></script>
+  </body>
+</html>
