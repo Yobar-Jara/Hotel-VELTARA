@@ -23,20 +23,20 @@ Este proyecto fue creado con el objetivo de fortalecer habilidades en desarrollo
 Hotel-Veltara/
 │
 ├── assets/
-│ ├── css/
-│ │ ├── animation.css
-│ │ ├── login.css
-│ │ └── styles.css
-│ │
-│ ├── Js/
-│ │ ├── login.js
-│ │ └── main.js
-│ │
-│ ├── Img/
-│ └── Doc/
+│   ├── css/
+│   │   ├── animation.css
+│   │   ├── login.css
+│   │   └── styles.css
+│   │
+│   ├── Js/
+│   │   ├── login.js
+│   │   └── main.js
+│   │
+│   ├── Img/
+│   └── Doc/
 │
 ├── pages/
-│ └── landingpage.html
+│   └── landingpage.html
 │
 ├── index.html
 └── README.md
