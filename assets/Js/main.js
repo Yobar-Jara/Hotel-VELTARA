@@ -160,7 +160,6 @@ document.querySelectorAll(".animation-suite").forEach((suite) => {
 const fromReserva = document.getElementById("formulario-reserva");
 
 fromReserva.addEventListener("submit", function(e) {
-
     e.preventDefault();
 
     // obtener valores
