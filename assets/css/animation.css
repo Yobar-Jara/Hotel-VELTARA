@@ -1,0 +1,205 @@
+/* LOGIN */
+/* Estilos aplicados cuando la pantalla mide 600px o menos */
+@media (max-width: 600px) {
+    /* El contenedor principal simula una vista de aplicación */
+    .login-container {
+    padding: 0; /* Quita el padding exterior */
+    background: #fff; /* Fondo blanco liso */
+    align-items: flex-start; /* Mueve el formulario arriba */
+    min-height: auto;
+    }
+
+    /* La caja del formulario se expande y pierde los adornos de tarjeta */
+    .login-box {
+    padding: 1.5rem; /* 24px de padding interno */
+    margin-top: 2rem; /* 32px de espacio superior */
+    width: 100%;
+    max-width: 100%;
+    box-shadow: none; /* Elimina la sombra */
+    border-radius: 0; /* Elimina el borde redondeado */
+    border: none;
+    }
+
+    .login-box h2 {
+    font-size: 1.7rem; /* Ajuste sutil del tamaño */
+    text-align: left;
+    }
+
+    .input-group input {
+    padding: 1rem; /* Aumenta el padding para un mejor toque táctil (16px) */
+    }
+}
+
+/* MENU HORIZONTAL */
+@media (max-width: 48rem) {
+    .menu-toggle {
+    display: block;
+    color: #ffffff;
+    }
+
+    .Menu-Horizontal {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #c8aa5b;
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    }
+
+    .Menu-Horizontal.active {
+    display: flex;
+    }
+
+    .Menu-Horizontal li {
+    border-bottom: 1px solid #c8aa5b;
+    }
+}
+
+/* NOSOTROS */
+@media (max-width: 56.25rem) {
+    /* CONTENEDOR PRINCIPAL */
+    .div-general-nosotros {
+    flex-direction: column;
+    gap: 20px;
+    padding: 1rem 0;
+    }
+
+    .div-nosotros-texto,
+    .div-nosotros-mision,
+    .div-nosotros-vision {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 15px 18px;
+    }
+}
+
+/* HABITACION */
+@media (max-width: 600px) {    /* para celulares*/
+    .carousel-3d img {
+        width: 80%;
+        height: 80%;
+        top: 7%;
+        left: 7%;
+    }
+
+    .carousel-container {
+        aspect-ratio: 4 / 5;
+        perspective: 800px; /* un poco menos profundo */
+    }
+
+    /* SUITS */
+    .animation-img {
+        aspect-ratio: 4 / 5; /* más alto en móvil */
+        max-width: 100%;
+    }
+
+    .animation-suite {
+        transition: transform 0.5s ease-in-out; /* un poco más rápido en móvil */
+    }
+
+    .animation-suite img {
+        border-radius: 8px; /* opcional: más sutil en pantallas pequeñas */
+    }
+
+    /* RESERVAS */
+    .reservar {
+    padding: 30px 15px;
+    }
+
+    .form-reserva {
+        padding: 15px;
+    }
+
+    legend {
+        font-size: 16px;
+    }
+
+    input,
+    select {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .boton-reservar button {
+        width: 100%;
+        padding: 12px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 48rem) { /* para tablets*/
+    .form-reserva {
+    padding: 20px;
+    }
+
+    .reservar-fecha {
+        flex-direction: column;
+    }
+
+    .opciones {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+/* CONTACTOS */
+@media (max-width: 51.27rem) {
+    .Contactos {
+    padding: 0;
+    background: #ffffff;
+    align-items: flex-start;
+    min-height: auto;
+    }
+
+    .contactos-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    }
+
+    .contactos-texto {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: none;
+    }
+
+    .formulario-contacto {
+    padding: 1.5rem;
+    margin-top: 2rem;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+    }
+
+    .formulario-contacto p {
+    font-size: 1.7rem;
+    text-align: left;
+    }
+
+    textarea {
+    width: 100%;
+    }
+
+    .campo input {
+    padding: 1rem;
+    }
+}
+
+/* FOOTER */
+@media (max-width: 48rem) {
+    .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+
+    .footer-social img {
+    margin-bottom: 0.5rem;
+    }
+}

@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Alumni+Sans+Collegiate+One:ital@0;1&display=swap");
+body {
+    background: #081c40;
+}
+/* Contenedor principal: Centra el formulario */
+.login-container {
+    display: flex;
+    justify-content: center;
+    font-family: "Agbalumo", system-ui;
+    align-items: center;
+    min-height: 95vh;
+    width: 100%;
+}
+
+/* La caja del formulario */
+.login-box {
+    background: #fff;
+    padding: 2.5rem; /* 40px */
+    border-radius: 0.625rem; /* 10px */
+    box-shadow: 0 0.25rem 0.9375rem #fff; /* Sombra */
+    width: 100%;
+    max-width: 25rem; /* 400px, el ancho máximo */
+    text-align: center;
+}
+
+img {
+    width: 8rem;
+    background: #081c40;
+    border-radius: 20%;
+}
+
+.login-box h2 {
+    margin-bottom: 1.5625rem; /* 25px */
+    color: #333;
+    font-size: 1.5rem;
+}
+
+/* División para agrupar Label e Input */
+.input-group {
+    margin-bottom: 1.25rem; /* 20px */
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 0.5rem; /* 8px */
+    font-weight: bold;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.75rem; /* 12px */
+    border: 1px solid #ccc;
+    border-radius: 0.3125rem; /* 5px */
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #2575fc;
+    outline: none;
+}
+
+/* Estilo del botón */
+.login-button {
+    width: 50%;
+    padding: 0.60rem;
+    border: none;
+    border-radius: 0.3125rem; /* 5px */
+    background-color: #2575fc;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 0.625rem; /* 10px */
+}
+
+.login-button:hover {
+    background-color: #1770f6;
+}
+
